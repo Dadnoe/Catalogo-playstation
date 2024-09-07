@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renta de PlayStation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .catalog {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item h2 {
+            color: #333;
+            text-align: center;
+        }
+        .item p {
+            font-size: 16px;
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Renta de PlayStation</h1>
+        <p>Tu mejor opción para disfrutar de juegos increíbles desde casa.</p>
+    </header>
+
+    <div class="container">
+        <section class="catalog">
+            <div class="item">
+                <h2>PlayStation 4</h2>
+                <p><strong>Precio:</strong> $700 el primer día, $600 por día después.</p>
+                <p><strong>Mando:</strong> Dos mandos incluidos.</p>
+                <p><strong>Juegos:</strong> Call of Duty, UFC, MLB, Juegos de carros, y más.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Contáctanos: 56359717 | noeldavidp363@gmail.com</p>
+        <p>Horario: 9am - 12pm</p>
+        <p>Domicilio con costo adicional.</p>
+    </footer>
+
+</body>
+</html>
